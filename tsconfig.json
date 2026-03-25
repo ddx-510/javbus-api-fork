@@ -22,6 +22,7 @@
 
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
+    "rootDir": "./api",
     "outDir": "./dist",
     "target": "ES2023"
   }
