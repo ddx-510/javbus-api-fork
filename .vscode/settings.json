@@ -1,6 +1,4 @@
 {
-  "js/ts.tsdk.path": "node_modules/typescript/lib",
-
   "editor.defaultFormatter": "oxc.oxc-vscode",
   "editor.formatOnSave": true,
 
@@ -26,5 +24,11 @@
   },
 
   "js/ts.preferences.preferTypeOnlyAutoImports": true,
-  "js/ts.preferences.importModuleSpecifier": "non-relative"
+  "js/ts.preferences.importModuleSpecifier": "non-relative",
+
+  // TypeScript 7 > Experimental: Use Tsgo
+  "js/ts.experimental.useTsgo": true,
+
+  // Optional: use a local TypeScript package directory.
+  "js/ts.tsdk.path": "./node_modules/typescript"
 }
