@@ -22,7 +22,6 @@
     "start": "node -r dotenv/config dist/server.js",
     "dev": "tsx watch --clear-screen=false -r dotenv/config api/server.ts",
     "build": "tsc",
-    "vercel-build": "tsc",
     "lint": "oxlint --deny-warnings",
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
